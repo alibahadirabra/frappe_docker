@@ -10,10 +10,6 @@
     {
       "url": "https://github.com/frappe/hrms",
       "branch": "version-15"
-    },
-    {
-      "url": "https://github.com/alibahadirabra/nocode",
-      "branch": "version-15"
     }
 
    
