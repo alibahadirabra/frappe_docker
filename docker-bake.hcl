@@ -25,7 +25,7 @@ variable "FRAPPE_REPO" {
 }
 
 variable "ERPNEXT_REPO" {
-    default = "https://github.com/frappe/erpnext"
+    default = "https://github.com/alibahadirabra/nocode"
 }
 
 variable "BENCH_REPO" {
