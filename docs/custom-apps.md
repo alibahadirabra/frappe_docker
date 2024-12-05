@@ -6,18 +6,7 @@ Create following `apps.json` file:
 
 ```json
 [
-  {
-    "url": "https://github.com/alibahadirabra/nocode",
-    "branch": "version-15"
-  },
-  {
-    "url": "https://github.com/frappe/payments",
-    "branch": "version-15"
-  },
-  {
-    "url": "https://{{ PAT }}@git.example.com/project/repository.git",
-    "branch": "main"
-  }
+  
 ]
 ```
 
@@ -90,7 +79,7 @@ It uses `images/custom/Containerfile`.
 
 ```shell
 docker build \
-  --build-arg=FRAPPE_PATH=https://github.com/alibahadirabra/nocode \
+  --build-arg=FRAPPE_PATH=https://github.com/frappe/frappe \
   --build-arg=FRAPPE_BRANCH=version-15 \
   --build-arg=PYTHON_VERSION=3.11.9 \
   --build-arg=NODE_VERSION=18.20.2 \
