@@ -20,9 +20,7 @@ variable "ERPNEXT_VERSION" {
     default = "develop"
 }
 
-variable "FRAPPE_REPO" {
-    default = "https://github.com/alibahadirabra/nocode"
-}
+
 
 variable "ERPNEXT_REPO" {
     default = "https://github.com/alibahadirabra/nocode"
